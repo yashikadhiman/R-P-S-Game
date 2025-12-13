@@ -69,3 +69,7 @@ rock-paper-scissors/
 
 
 ---
+
+🖼️ Screenshort
+![image alt](https://github.com/yashikadhiman/R-P-S-Game/blob/f6f1506203d664b0a2b6903d643ff03547263401/screenshort.png)
+
