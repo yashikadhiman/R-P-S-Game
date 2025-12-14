@@ -1,4 +1,4 @@
-const choices =["rock ✊🏼","paper 🖐🏼","scissors ✌🏼"];
+const choices =["rock ✊🏼 ","paper 🖐🏼","scissors ✌🏼"];
 const youDisplay = document.getElementById("youDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
@@ -39,3 +39,4 @@ document.querySelector(".reset-button").addEventListener(
     computerDisplay.textContent = `Computer: ${computerScore}`;
     resultDisplay.textContent = "Scores Reset!";
     }
+
