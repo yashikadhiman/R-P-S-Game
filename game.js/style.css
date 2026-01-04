@@ -49,7 +49,9 @@ p{
 #choices button:hover{
         transition: all 1s ease-in-out;
     transform: scale(1.05);
-    
+}
+#choices button:active{
+     transform: scale(1.5);
 }
 .rock{
     background-image: url(rock.png) ;
@@ -126,6 +128,7 @@ h2 {
     box-shadow: 20px 0 100px 1px rgb(226,55,212),
                 20px 0 100px 1px rgb(231, 233, 105) ;
 }
+
 
 
 
