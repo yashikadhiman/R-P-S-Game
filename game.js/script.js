@@ -1,4 +1,4 @@
-const choices =["rock ✊🏼 ","paper 🖐🏼","scissors ✌🏼"];
+const choices =["rock ✊🏼","paper 🖐🏼","scissors ✌🏼"];
 const youDisplay = document.getElementById("youDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
@@ -12,7 +12,7 @@ function playGame(youchoice){
     }
     else{
         switch(youchoice){
-            case "rock ✊🏼 ":
+            case "rock ✊🏼":
             result = (computerChoice === "scissors ✌🏼")? "YOU WIN!" : "YOU LOSE!";
             break;
             case "paper 🖐🏼":
@@ -39,4 +39,5 @@ document.querySelector(".reset-button").addEventListener(
     computerDisplay.textContent = `Computer: ${computerScore}`;
     resultDisplay.textContent = "Scores Reset!";
     }
+
 
